@@ -4,10 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <title>New York Times Search</title>
-
+  
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -16,9 +17,9 @@
 
     <!-- Jumbotron  -->
     <div class="jumbotron">
+      <i class="fa fa-newspaper-o" aria-hidden="true"></i>
       <h1>New York Times Search</h1> 
     </div>
-
     <div class="row">
 
       <!-- Search Parameters Panel  -->
@@ -26,12 +27,14 @@
         <div class="panel panel-default">
           <div class="panel-heading group-heading">
             <h3 class="panel-title">Search Parameters</h3>
+
           </div>
           <div class="panel-body">
             <form role="form">
 
               <div class="form-group">
                 <label for="search">Search Term:</label>
+                
                 <input type="text" class="form-control" id="search">
               </div>
 
@@ -80,10 +83,11 @@
   </div>
 
   <!-- jQuery JS -->
-  <script src="https://code.jquery.com/jquery.js"></script>
+    
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
 
   <!-- Logic.js -->
-  <script src="logic.js"></script>
+  <script src="assets/javascript/app.js"></script>
 
 
 

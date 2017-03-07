@@ -7,11 +7,11 @@
 	text-align: center;
 }
 
-.panel {
+.panel .panel-heading{
 	background-color: #20315a;
 	color: white;
 }
-
-
-
+.fa-newspaper-o{
+	color: white;
+}
 
